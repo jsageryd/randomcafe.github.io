@@ -1,0 +1,40 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #333;
+  color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px
+  }
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main {
+  margin: 30px;
+  padding: 30px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article {
+  padding: 30px;
+}
+
+.post-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
